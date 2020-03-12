@@ -1,6 +1,13 @@
 ---------------------------------------------------------------------------------
   Changelog for "Rainbeau Flambe - Storyteller"
 ---------------------------------------------------------------------------------
+- 2020-03-12
+    - Updated to 1.1
+	- Technical details:
+		- The OnOffCycle RaidBeacon was be replaced by ThreatsGenerator.
+		- The by-default unconfigured JourneyOffer was replaced by two by-default configured RandomQuests, one for the royalty and one for the non-royalty case.
+		- The OnOffCycle WorldQuest was replaced by the abstract GiveQuest.
+		As far as I can tell, the above changes should be equivalent between 1.0 and 1.1.
 
 - 12/05/2018
 	- Rewrote XML patches to improve load efficiency slightly.

@@ -82,17 +82,20 @@
 					<li>Map_RaidBeacon</li>
 				</disallowedTargetTags>
 			</li>
-			<li Class="StorytellerCompProperties_OnOffCycle">
-				<category>RaidBeacon</category>
+
+			<li Class="StorytellerCompProperties_ThreatsGenerator">
 				<allowedTargetTags>
 					<li>Map_RaidBeacon</li>
 				</allowedTargetTags>
-				<onDays>1.0</onDays>
-				<offDays>0.5</offDays>
-				<minSpacingDays>0.04</minSpacingDays>
-				<applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
-				<numIncidentsRange>1~2</numIncidentsRange>
+				<parms>
+					<allowedThreats>Raids</allowedThreats>
+					<onDays>1.0</onDays>
+					<offDays>0.5</offDays>
+					<minSpacingDays>0.04</minSpacingDays>
+					<numIncidentsRange>1~2</numIncidentsRange>
+				</parms>
 			</li>
+
 			<li Class="StorytellerCompProperties_OnOffCycle"> 
 				<category>ThreatSmall</category>
 				<minDaysPassed>4.0</minDaysPassed> 
@@ -180,9 +183,51 @@
 					<li>Map_TempIncident</li>
 				</allowedTargetTags>
 			</li>
-			<li Class="StorytellerCompProperties_JourneyOffer"/>
+			
+			
+			      <li Class="StorytellerCompProperties_RandomQuest">
+					<category>GiveQuest</category>
+					<allowedTargetTags>
+					  <li>World</li>
+					</allowedTargetTags>
+					<onDays>10</onDays>
+					<numIncidentsRange>1</numIncidentsRange>
+					<acceptFractionByDaysPassedCurve>
+					  <points>
+						<li>(5, 0)</li>
+						<li>(30, 1)</li>
+					  </points>
+					</acceptFractionByDaysPassedCurve>
+					<minSpacingDays>3</minSpacingDays>
+					<disableIfAnyModActive>
+					  <li>Ludeon.RimWorld.Royalty</li>
+					</disableIfAnyModActive>
+				  </li>
+				  <!-- Quests - Royalty -->
+				  <li Class="StorytellerCompProperties_RandomQuest">
+					<category>GiveQuest</category>
+					<allowedTargetTags>
+					  <li>World</li>
+					</allowedTargetTags>
+					<onDays>12</onDays>
+					<numIncidentsRange>2</numIncidentsRange>
+					<acceptFractionByDaysPassedCurve>
+					  <points>
+						<li>(5, 0)</li>
+						<li>(11, 1)</li>
+					  </points>
+					</acceptFractionByDaysPassedCurve>
+					<minSpacingDays>3</minSpacingDays>
+					<enableIfAnyModActive>
+					  <li>Ludeon.RimWorld.Royalty</li>
+					</enableIfAnyModActive>
+				  </li>
+			
+			
+			
+			
 			<li Class="StorytellerCompProperties_OnOffCycle">
-				<category>WorldQuest</category>
+				<category>GiveQuest</category>
 				<allowedTargetTags>
 					<li>World</li>
 				</allowedTargetTags>
