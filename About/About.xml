@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+
+	<name>[RF] Rainbeau Flambe - Storyteller [1.0]</name>
+	<author>Rainbeau Flambe</author>
+	<url>https://ludeon.com/forums/index.php?topic=46165</url>
+	<targetVersion>1.0.0</targetVersion>
+	<description>(Last update: 12/05/2018)
+
+This mod adds a new storyteller, Rainbeau Flambe.
+
+Rain shares Randy's love of the unpredictable, but tempers that love with a bit of Cassandra's storytelling flair. Still, he'll send big threats nearly as often as small ones. He seems to have a bit of a sadistic streak, and in any event, he has to keep his cat, Sabre, amused. He also likes to have a slightly larger cast of characters to work with than Cassandra does, and so will subtly encourage you to have more colonists.
+
+The mod also slightly increases the base chance of orbital traders arriving, though the actual frequency of their arrival is not altered.
+
+Some player testimonials:
+
+"[Rainbeau is] real good on providing a constant supply of traders and challenges."
+
+"Yep. Three events after one minute. And after that I had some time for my colonist. I like that challenge."
+
+"I have to say I'm really satisfied with this storyteller.... Rain (on some challenge and later on rough) is heavy handed, but fair. The good flows in rapid succession just like challenges. I feel like if you survive the onslaught, he rewards you with a reasonable term of prosperity, and loves big colonies. He basically fits exactly how I like to play."
+
+"Not sure if I just had bad luck.... But it feels like the game now spams bad events on me."
+
+"Just into my second year in my current game using Rainbeau and I can say, 100%, that he is very fun, even on Some Challenge. XD Very fast paced and intent on being very kind or very brutal to my tiny colony. A+ Storyteller!"
+
+"I've taken to calling this storyteller 'WHAT NOW?!'"
+
+"He looks kinda like Shia Labeouf."
+
+-- Rainbeau Flambe (dburgdorf) - the modder, not the storyteller ;)
+
+=====
+
+A Note on Difficulty Levels:
+
+Technically, Rain can be used at any difficulty setting, if only because there's no way to disable any of those settings. But as a matter of practicality, I wouldn't recommend trying to use him with "base builder" difficulty. Rain utilizes big threats as often as small ones, and tries to keep things going at a fair clip, while the "base builder" setting disables most big threats, and is intended to keep the game moving at a more leisurely pace. The inconsistency should be obvious.
+
+=====
+
+Compatibility:
+
+"Rainbeau Flambe - Storyteller" adds a new storyteller, but doesn't really change anything already in the game, so it should be compatible with pretty much any other mod, and you should be able to add it to an existing saved game without trouble. You should also be able to safely remove it from a game in progress, at least so long as Rain's not the currently active storyteller.
+
+=====
+
+License:
+
+If you're a modpack maker and want to include this mod in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
+
+=====
+
+Acknowledgement:
+
+The image of Rainbeau Flambe was created with HeroMachine 3 (http://www.heromachine.com/heromachine-3-lab/), and then edited in Photoshop.
+
+=====
+
+If you have any (helpful) suggestions for improvement, please let me know!
+
+	</description>
+
+</ModMetaData>
